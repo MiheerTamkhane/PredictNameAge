@@ -20,7 +20,7 @@ function clickHandler() {
     .then((response) => response.json())
     .then((json) => {
       let ageOfName = json.age;
-      output.innerHTML = `<p>Age of "${inputText}" is :${ageOfName}</p>`;
+      output.innerHTML = `<p>Age of "${inputText}" is : ${ageOfName}</p>`;
     })
     .catch(errHandler);
 }

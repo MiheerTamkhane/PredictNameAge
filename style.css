@@ -1,0 +1,85 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #f1f1f1;
+  min-height: 100vh;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 3rem; */
+}
+h1 {
+  background-color: #7400b8;
+  color: #f1f1f1;
+  padding-top: 2rem;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1rem;
+  /* background-color: #f1f3f4; */
+}
+input {
+  margin: 1rem;
+  padding: 1rem;
+  width: 90%;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  border: 1px solid #6930c3;
+  border-radius: 1rem;
+  color: #5e60ce;
+  background-color: #f1f1f1;
+}
+button {
+  /* margin-top: 1rem; */
+  padding: 0.6rem 1.4rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: #5e60ce;
+  border: none;
+  border-radius: 10px;
+  color: #f1f1f1;
+  /* width: 80%; */
+  margin-left: 1.2rem;
+}
+h3 {
+  margin-top: 0.5rem;
+  margin: 1rem;
+  color: #7400b8;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  /* text-align: center; */
+}
+#output {
+  /*
+  width: 600px;
+  height: 600px; */
+  border-top: 1px solid #7400b8;
+  height: 20vh;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  color: #5e60ce;
+  font-weight: bold;
+  font-size: 2rem;
+}
+footer {
+  background-color: #7400b8;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 1rem;
+}
+.mid-section {
+  margin: 1.4rem;
+}
